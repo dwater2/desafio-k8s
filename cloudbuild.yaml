@@ -13,5 +13,5 @@ steps:
 - id: "Build e push"  
   name: 'gcr.io/cloud-builders/docker'
   args: ['build', '--tag=gcr.io/$PROJECT_ID/app', './3-desafio-go']
-  
+
 images: ['gcr.io/$PROJECT_ID/app']
